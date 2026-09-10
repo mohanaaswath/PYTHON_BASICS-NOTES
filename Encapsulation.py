@@ -26,11 +26,11 @@ Student_1.get_Marks()  #access the private variable or data
 
 #protected variable data 
 
-class company():
-    def __init__(self):
-        self._company = "IBM"
-c1 = company()
-print(c1._company)     
+# class company():
+#     def __init__(self):
+#         self._company = "IBM" #_company is the protected variable
+# c1 = company()
+# print(c1._company)     
 
 
 class company():

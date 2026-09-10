@@ -1,6 +1,24 @@
 #Object oriented programming  :OOPS is the programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes), and code, in the form of procedures (often known as methods). A feature of objects is that an object's procedures can access and often modify the data fields of the object with which they are associated (objects have a notion of "this" or "self"). 
 # In OOP, computer programs are designed by making them out of objects that interact with one another. OOP languages are diverse, but the most popular ones are class-based, meaning that objects are instances of classes, which also determine their types.
 
+# class
+# object
+# Constructor
+# self  (instance variable, instance Function)
+
+#Encapsulation
+#Private, Public, Protected
+    
+#Polymorphism
+#Method Overrding, Method Overloading
+#SuperClass
+    
+#Inheritance
+#Single Inheritance
+#Multilevel Inheritance
+#Hierarichal Inheritance
+#Multiple Inheritance
+#Hybrid Inheritance
 
 # class goa:
 #     name = " "
@@ -236,4 +254,7 @@ class Employee_Details:
 Employee1 = Employee_Details("Mohan",30,101,"Software Engineer",50000)
 Employee2 = Employee_Details("Abhishek",31,102,"Data Scientist",60000)
 Employee1.Show_Employee_Details()    
-Employee2.Show_Employee_Details()    
+Employee2.Show_Employee_Details() 
+
+
+   
