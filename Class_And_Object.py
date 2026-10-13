@@ -196,65 +196,87 @@ Staff.Students()  #function calling
 # It is used to initialize the object's attributes and set up any necessary resources.
 # In Python, the constructor method is defined using the __init__() method. 
 
-class ClassName : 
-    #name and age is the local variable that is passed as an argument to the constructor method. It is used to initialize the object's attributes with the provided values.
-    def __init__(self,name,age): #__init__ is a constructor method that is automatically called when an object of the class is created. It initializes the object's attributes with the provided values.
-        self.name = name    #self.name  is the instance variable that is used to store the name of the object. It is prefixed with self to indicate that it belongs to the current instance of the class.
-        self.age = age  
-    def display(self):
-        print("Name:",self.name)
-        print("Age:",self.age)  
+# class ClassName : 
+#     #name and age is the local variable that is passed as an argument to the constructor method. It is used to initialize the object's attributes with the provided values.
+#     def __init__(self,name,age): #__init__ is a constructor method that is automatically called when an object of the class is created. It initializes the object's attributes with the provided values.
+#         self.name = name    #self.name  is the instance variable that is used to store the name of the object. It is prefixed with self to indicate that it belongs to the current instance of the class.
+#         self.age = age  
+#     def display(self):
+#         print("Name:",self.name)
+#         print("Age:",self.age)  
 
-Object1 = ClassName("mohan",20)  #object creation
-Object2 = ClassName("Abhishek",20)     
-Object1.display()#calling the display method of Object1       
-Object2.display()#calling the display method of Object2   
+# Object1 = ClassName("mohan",20)  #object creation
+# Object2 = ClassName("Abhishek",20)     
+# Object1.display()#calling the display method of Object1       
+# Object2.display()#calling the display method of Object2   
 
 
-class Students_Details:
-    def __init__(self,name,age,roll_no,marks,grade,course):
-        self.name = name
-        self.age = age
-        self.roll_no = roll_no
-        self.marks = marks
-        self.grade = grade
-        self.course = course
-    def Show_Students_Details(self):
-        print(f'Hi I am {self.name} and I am {self.age} years old ,I am Studying in {self.course} course and My Roll No is {self.roll_no} and I got {self.marks} marks and My Grade is {self.grade}')    
+# class Students_Details:
+#     def __init__(self,name,age,roll_no,marks,grade,course):
+#         self.name = name
+#         self.age = age
+#         self.roll_no = roll_no
+#         self.marks = marks
+#         self.grade = grade
+#         self.course = course
+#     def Show_Students_Details(self):
+#         print(f'Hi I am {self.name} and I am {self.age} years old ,I am Studying in {self.course} course and My Roll No is {self.roll_no} and I got {self.marks} marks and My Grade is {self.grade}')    
 
-Student1 = Students_Details("Mohan",20,101,90,"A","AI Engineering") 
-Student2 = Students_Details("Abhishek",21,102,90,"A","Data Science")    
-Student3 = Students_Details("Nithin",22,103,90,"A","Mern Stack")   
-Student4 = Students_Details("Anbu",23,104,90,"A","Python")
-Student5 = Students_Details("Gokul",24,105,90,"A","JavaScript")
-Student6 = Students_Details("Arun",25,106,90,"A","Network Security")
-Student7 = Students_Details("Rocky",26,107,90,"A","Full Stack Development")
-Student8 = Students_Details("Sachin",26,107,90,"A","java Development")
+# Student1 = Students_Details("Mohan",20,101,90,"A","AI Engineering") 
+# Student2 = Students_Details("Abhishek",21,102,90,"A","Data Science")    
+# Student3 = Students_Details("Nithin",22,103,90,"A","Mern Stack")   
+# Student4 = Students_Details("Anbu",23,104,90,"A","Python")
+# Student5 = Students_Details("Gokul",24,105,90,"A","JavaScript")
+# Student6 = Students_Details("Arun",25,106,90,"A","Network Security")
+# Student7 = Students_Details("Rocky",26,107,90,"A","Full Stack Development")
+# Student8 = Students_Details("Sachin",26,107,90,"A","java Development")
 
-Student1.Show_Students_Details()
-Student2.Show_Students_Details()
-Student3.Show_Students_Details()
-Student4.Show_Students_Details()
-Student5.Show_Students_Details()
-Student6.Show_Students_Details()
-Student7.Show_Students_Details()
-Student8.Show_Students_Details()
+# Student1.Show_Students_Details()
+# Student2.Show_Students_Details()
+# Student3.Show_Students_Details()
+# Student4.Show_Students_Details()
+# Student5.Show_Students_Details()
+# Student6.Show_Students_Details()
+# Student7.Show_Students_Details()
+# Student8.Show_Students_Details()
 
-# creating a class for employee details 
-class Employee_Details:
-    def __init__(self,name,age,emp_id,designation,salary):
-        self.name = name
-        self.age = age
-        self.emp_id = emp_id
-        self.designation = designation
-        self.salary = salary
-    def Show_Employee_Details(self):
-        print(f'Hi I am {self.name} and I am {self.age} years old ,My Employee ID is {self.emp_id} and I am working as a {self.designation} and My Salary is {self.salary}')
+# # creating a class for employee details 
+# class Employee_Details:
+#     def __init__(self,name,age,emp_id,designation,salary):
+#         self.name = name
+#         self.age = age
+#         self.emp_id = emp_id
+#         self.designation = designation
+#         self.salary = salary
+#     def Show_Employee_Details(self):
+#         print(f'Hi I am {self.name} and I am {self.age} years old ,My Employee ID is {self.emp_id} and I am working as a {self.designation} and My Salary is {self.salary}')
         
-Employee1 = Employee_Details("Mohan",30,101,"Software Engineer",50000)
-Employee2 = Employee_Details("Abhishek",31,102,"Data Scientist",60000)
-Employee1.Show_Employee_Details()    
-Employee2.Show_Employee_Details() 
+# Employee1 = Employee_Details("Mohan",30,101,"Software Engineer",50000)
+# Employee2 = Employee_Details("Abhishek",31,102,"Data Scientist",60000)
+# Employee1.Show_Employee_Details()    
+# Employee2.Show_Employee_Details() 
 
 
-   
+class Startup:
+    def __init__(self, name, founder, industry, funding):
+        self.name = name
+        self.founder = founder
+        self.industry = industry
+        self.funding = funding
+
+    def Show_Startup_Details(self):
+        print(f'Hi I am {self.name} and I am founded by {self.founder} ,I am working in {self.industry} industry and My Funding is {self.funding}')
+
+Owner = Startup("OpenAI", "Sam Altman", "Artificial Intelligence", "$1 Billion")
+Owner.Show_Startup_Details() 
+
+
+# git add .
+# git commit -m "Learn doubly and circular linked lists"
+# git push origin main         
+
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/mohanaaswath/DSA-Notes.git
+# git push -u origin main
