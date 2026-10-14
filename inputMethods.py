@@ -33,3 +33,14 @@ else :
     
  #i enter Mohan ,40 output : Mohan Passed
  #i enter Mohan , 20 output : Mohan Failed 
+
+
+
+#real time example : Employee salary
+
+name = input("Enter employee name : ")
+salary = float(input("Enter salary : "))
+percentage = float(input("Enter percentage : "))
+print("Employee name : ",name)
+print("Employee salary : ",salary)
+print("Employee percentage : ",percentage)
